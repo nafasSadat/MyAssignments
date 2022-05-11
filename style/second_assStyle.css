@@ -1,0 +1,197 @@
+@font-face {
+    font-family: sourse_regular;
+    src: url(SourceSansPro-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sourse_regular;
+}
+
+body{
+    background-color: white;
+}
+
+.main{
+    min-height: 100vh;
+    width: 90%;
+    margin: 1rem auto;
+	background-color: #f5f5f5;
+
+}
+.top_section{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+ margin-top: 0.5rem;
+ margin-left: 0.5rem;
+ display: inline-block;
+ max-width: 100%;
+
+}
+.box_top{
+    margin-right: 0.1rem;
+    margin-top: 3rem;
+    border: black groove;
+    border-radius: 3px;
+    border-width: thin;
+    height: 40px;
+    width: 20%;
+    display: inline-block;
+
+
+}
+
+.arrow_img{
+    height: 35px;
+    width: 20px;
+    float:right;
+}
+ 
+#text{
+    font-size: 16px;
+    font-family: sourse_regular;
+    color: black;
+    float: left;
+    padding: 4px;
+    
+}
+.containt{
+    display: flex;
+    width: 100%;
+   
+  
+}
+
+.empty_space1{
+    width: 450px;
+    height:560px ;
+    max-width: 100%;
+    
+    background-image: url("../assets/plane-quantity-background.png");
+    padding-left: 20px;
+    display: inline-block;
+}
+.empty_space{
+    width: 450px;
+    height:560px ;
+    max-width: 100%;
+    background-color: #99DC54;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.empty_space2{
+    width: 450px;
+    height:560px ;
+    max-width: 100%;
+    background-image: url("../assets/plane-profit-background.png");
+    padding-left: 20px;
+    display: inline-block;
+}
+.firstrow{
+    display: flex;
+    padding-top: 64px;
+    max-width: 100%;
+}
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+.p1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: sourse_regular;
+    font-weight: bold;
+    max-width: 100%;
+}
+.p2{
+    font-style:sourse_regular;
+    font-size: 30px;
+    max-width: 100%;
+    margin-top: 2rem;
+
+} 
+
+
+hr.solid {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width:90%;
+    border: solid whitesmoke;
+    border-width: thin;
+    background-color: white;
+   
+  }
+
+.plan{
+    display: flex;
+    max-width: 100%;
+}
+.planepic{
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+}
+.planename{
+margin-left: 32px;
+max-width: 100%;
+}
+
+
+
+.login{  
+    width: 450px;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 70px;  
+    border-radius: 15px ;  
+    background-image: url("../assets/plane-quantity-background.png");
+   
+      
+}  
+h2{  
+text-align: center;  
+color:black;  
+padding: 15px;  
+}  
+label{  
+color: black;  
+font-size: 17px;  
+}  
+#msgbox{  
+width: 300px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#input_box{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+  
+}  
+#log{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 10px;  
+padding-left: 7px;  
+color: white;  
+background-color: rgb(27, 176, 245);
+
+}  
+
+
+  
+ 
